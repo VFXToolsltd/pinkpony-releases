@@ -1,0 +1,10 @@
+# This repo carries the README, the update feed, and the docs image only.
+# Release binaries live on the Releases page, not in the git tree.
+*.zip
+*.app
+*.exe
+*.dmg
+# Design sources belong in the private repo, not here.
+*.af
+*.psd
+*.ai
