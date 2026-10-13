@@ -2,19 +2,19 @@
   "stable": {
     "assets": {
       "mac_arm64": {
-        "sha256": "dead52bd88f3161a91687b7961af729858d1778e9132f4827a75bc552968072b",
-        "size": 74601568,
-        "url": "https://github.com/VFXToolsltd/pinkpony-releases/releases/download/v4.17.0/PinkPony_v4.17.0_mac_arm64.zip"
+        "sha256": "b492cfa650c59b3d3ea1e712cf04a59e888843ee32e1f474719903475c11a179",
+        "size": 74685074,
+        "url": "https://github.com/VFXToolsltd/pinkpony-releases/releases/download/v4.18.0/PinkPony_v4.18.0_mac_arm64.zip"
       },
       "win_x64": {
-        "sha256": "82a74381dd7b900d5c13823b152196ac9d25bb81496203942782fb60333660a4",
-        "size": 91547760,
-        "url": "https://github.com/VFXToolsltd/pinkpony-releases/releases/download/v4.17.0/PinkPony_v4.17.0_win_x64.zip"
+        "sha256": "6169a2f3d72b024beef55af3b5bddc6d9161e594ed460912efb239e6c2c75649",
+        "size": 91631546,
+        "url": "https://github.com/VFXToolsltd/pinkpony-releases/releases/download/v4.18.0/PinkPony_v4.18.0_win_x64.zip"
       }
     },
-    "notes_url": "https://github.com/VFXToolsltd/pinkpony-releases/releases/tag/v4.17.0",
+    "notes_url": "https://github.com/VFXToolsltd/pinkpony-releases/releases/tag/v4.18.0",
     "released": "2026-10-13",
-    "tag": "v4.17.0",
-    "version": "4.17.0"
+    "tag": "v4.18.0",
+    "version": "4.18.0"
   }
 }
