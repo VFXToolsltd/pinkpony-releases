@@ -21,7 +21,86 @@ This repository carries the **downloadable builds** and the **update feed** the 
 reads. The source code is private; only the finished applications are published here.
 
 - **[⬇ Download the latest release](../../releases/latest)**
-- [How to install](#how-to-install) · [System requirements](#system-requirements) · [Updating](#updating) · [Troubleshooting](#troubleshooting) · [Uninstalling](#uninstalling)
+- **[📖 How-to guides, tab by tab](docs/guides/README.md)**
+- [What it does](#what-it-does) · [What's new](#whats-new) · [How to install](#how-to-install) · [System requirements](#system-requirements) · [Updating](#updating) · [Troubleshooting](#troubleshooting) · [Uninstalling](#uninstalling)
+
+---
+
+## What it does
+
+One desktop app for the VFX production office. It keeps a local copy of the show's
+**ShotGrid (Autodesk Flow)** data, works from the paperwork the production already
+makes — schedules, scripts, set reports, budgets, invoices — and sends the results
+back to ShotGrid, after showing you a preview first.
+
+| Tab | What it's for |
+|-----|---------------|
+| **Home** | The show at a glance: shots, progress, budget spend and hot costs. One button brings everything up to date from ShotGrid, and two more make the packs the crew open on their phones. |
+| **Reports** | Stakeholder reports for producers and the studio: Weekly Overview, budget gauges, burn-down, vendor scorecard, hot-cost alerts, progress sheet, notes digest and the cost report. **Report Studio** lets you design your own layouts. |
+| **Finance** | The studio's locked budget, the cost tracker spreadsheet, the accounts team's spending report and every PO, invoice and quote — each becomes its ShotGrid record, checked before it's sent. |
+| **Brief** | A work brief from a review playlist or whole sequences: each shot's latest picture, brief, notes and drawings, as a spreadsheet and a PDF. |
+| **Upload** | A delivery folder sent to ShotGrid: movies onto their shots or slates, documents onto their records. You see where every file goes before anything is sent. |
+| **CSV** | Any ShotGrid page saved as a CSV becomes a tidy PDF report, shot pictures included. |
+| **Oneline** | Production's oneline schedule PDF becomes ShotGrid's shoot days, each with its scenes and locations. |
+| **Script** | Draft scripts become a scene-by-scene breakdown and bring ShotGrid's Scenes up to date, with a picture of each scene from the script. |
+| **Board** | The unit board and unit map for the crew, and the post schedule as a printable calendar and in ShotGrid. |
+| **Plan** | A forward look for each shoot day and unit — what VFX need from each department — as an email or a PDF. |
+| **Movs** | A list of every movie in a folder with its shot name, version and length. |
+| **Onset** | The day's set paperwork gathered into one master spreadsheet and sent to ShotGrid as slates and clips — with every disagreement between reports raised as a question for a person to answer, never guessed. |
+| **Tools** | Opens the separate tools that work alongside the app — the onset collator, storyboard splitter, prep schedule scanner and batch uploader. |
+| **Settings** | Each show's setup: the ShotGrid login, folders, budget figures, report colours, moving a setup to another machine, and the update check. |
+
+Nothing is sent to ShotGrid without a preview first, and every job on the
+Finance, Oneline, Script and Onset tabs opens on a step-by-step checklist.
+
+---
+
+## What's new
+
+Highlights from the latest releases. Each release's own notes are on the
+[Releases](../../releases) page.
+
+- **Slate sheets** (V4.35) — a VFX data sheet per slate for the director, DOP and
+  VFX supervisor: the whole frame, camera and lens for each camera, takes and
+  notes. Choose the slates by pasting a list, ticking them in a window, by episode
+  or from an editor's EDL (each edit matched to its clip, in cut order). Made only
+  when asked for, and saved where you choose.
+- **A picture on every slate** (V4.34) — slates with no picture become one pull
+  request for the studio's media platform; the movies it sends back are matched by
+  name and the middle frame put on the slate.
+- **Timecode on every clip** (V4.33) — the media platform's clip report adds each
+  clip's camera file name, timecode and frame count to ShotGrid, and fills in clips
+  the paperwork missed.
+- **Every take's camera values on its clip** (V4.32) — lens, filters, focus,
+  height and tilt per take, and slates dated by the script supervisor's log.
+- **Wider window** (V4.31) — a full-width layout with cards in a grid.
+- **Post schedule** (V4.29) — the post team's calendar exports become a printable
+  month-by-month calendar and ShotGrid's post days, kept in step on every send.
+- **Slate rules per show** (V4.28) — how a show names its slates (pickups,
+  elements, beauty and CCTV plates) set once per show, and answers to questions
+  kept from one release to the next.
+- **Forward-look planner** (V4.22–V4.24) — one plan per shoot day and unit, written
+  as the email VFX sends to the departments, or saved as a PDF.
+- **Script breakdown** (V4.19 onwards) — every scene read from the draft scripts,
+  anything unclear asked as a question, then sent straight to ShotGrid's Scenes.
+- **After Action reports and reference contact sheets** (V4.18) — a shareable
+  report for each shoot day a week after it's shot, and a contact sheet of the
+  wranglers' reference photos per day.
+- **Paperwork in, records out** (V4.10) — a PO, invoice or quote PDF becomes its
+  ShotGrid record, every value checked and shown with the line it came from.
+- **One setup for every machine** (V4.11) — export a project's whole setup as one
+  file and open it on another computer.
+- **Plain English throughout** — every message, status line and error is written
+  for the person using it, with one next step.
+
+---
+
+## How-to guides
+
+Step-by-step guides for every tab, written for someone new to the app:
+**[docs/guides](docs/guides/README.md)**. The same pages can be made from inside
+the app, and they are generated from the app's own step lists, so the steps
+match the buttons in the version they were made for.
 
 ---
 
